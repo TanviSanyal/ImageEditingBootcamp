@@ -1,0 +1,23 @@
+.main-body span{
+  color: white;
+  text-transform: uppercase;
+  display: block;
+}
+.main-body{
+  text-align: center;
+  padding-top: 33vh;
+  padding-left: 3%;
+}
+
+span{
+  color: white;
+  font-size: 120%;
+  letter-spacing: 3PX;
+}
+p{
+  color: white;
+  font-size: 150%;
+  letter-spacing: 4PX;
+  line-height: 10PX;
+}
+

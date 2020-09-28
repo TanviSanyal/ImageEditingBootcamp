@@ -1,0 +1,12 @@
+main {
+  margin-top: 100px;
+    padding: 100px;
+    width: 90%;
+    max-width: 50rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+}
+}
+

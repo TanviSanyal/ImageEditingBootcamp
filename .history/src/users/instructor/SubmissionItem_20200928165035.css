@@ -1,0 +1,35 @@
+.submission-item {
+    margin: 1rem 0;
+  }
+  
+  .submission-item__content {
+    padding: 0;
+  }
+  
+  .submission-item__info {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .submission-item__image {
+    width: 100%;
+    height: 12.5rem;
+    margin-right: 1.5rem;
+  }
+  
+  .submission-item__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+  .submission-item__info h3 {
+    margin: 0 0 0.5rem 0;
+  }
+  
+  @media (min-width: 768px) {
+    .submission-item__image {
+      height: 20rem;
+    } 
+  }

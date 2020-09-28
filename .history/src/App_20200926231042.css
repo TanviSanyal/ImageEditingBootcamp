@@ -1,0 +1,23 @@
+
+.main-body{
+  text-align: center;
+  padding-top: 30vh;
+  padding-left: 3%;
+  padding-right: 3%;
+  text-transform: uppercase;
+}
+
+.text1{
+  color:rgb(200,200,200);
+  font-size: 150%;
+  letter-spacing: 3PX;
+  font-weight: 700;
+}
+.text2{
+  color: rgb(200,200,200);
+  font-size: 150%;
+  letter-spacing: 4PX;
+  line-height: 37PX;
+  font-weight: 700;
+}
+

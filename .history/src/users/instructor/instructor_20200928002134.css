@@ -1,0 +1,28 @@
+.add_task {
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #ff0055;
+    border-radius: 4px;
+    background: #ff0055;
+    color: white;
+    cursor: pointer;
+    margin-right: 1rem;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .add_task:focus {
+    outline: none;
+  }
+  
+  .add_task:hover,
+  .add_task:active {
+    background: #ff4382;
+    border-color: #ff4382;
+  }
+
+  #add_task_btn_form{
+      text-align: center;
+      align-items: center;
+      margin-top: 5vh;
+  }

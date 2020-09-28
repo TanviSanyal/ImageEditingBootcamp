@@ -1,0 +1,22 @@
+.main-body span{
+  color: white;
+  text-transform: uppercase;
+  display: block;
+}
+.main-body{
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+span{
+  color: white;
+  font-size: 120%;
+}
+p{
+  color: white;
+  font-size: 130%;
+}
+

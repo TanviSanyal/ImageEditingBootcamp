@@ -1,0 +1,61 @@
+.add_task {
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #ff0055;
+    border-radius: 4px;
+    background: #ff0055;
+    color: white;
+    cursor: pointer;
+    margin-right: 1rem;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .add_task:focus {
+    outline: none;
+  }
+  
+  .add_task:hover,
+  .add_task:active {
+    background: #ff4382;
+    border-color: #ff4382;
+  }
+  
+  .add_task--inverse {
+    background: transparent;
+    color: #ff0055;
+  }
+  
+  .add_task--inverse:hover,
+  .add_task--inverse:active {
+    color: white;
+    background: #ff0055;
+  }
+  
+  .add_task--danger {
+    background: #830000;
+    border-color: #830000;
+  }
+  
+  .add_task--danger:hover,
+  .add_task--danger:active {
+    background: #f34343;
+    border-color: #f34343;
+  }
+  
+  .add_task:disabled,
+  .add_task:hover:disabled,
+  .add_task:active:disabled {
+    background: #ccc;
+    color: #979797;
+    border-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .add_task--small {
+    font-size: 0.8rem;
+  }
+  
+  .button--big {
+    font-size: 1.5rem;
+  }

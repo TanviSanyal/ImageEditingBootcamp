@@ -1,0 +1,11 @@
+
+  .main-navigation__header-nav {
+    display: block;
+  }
+  .main-navigation__logo{
+    margin-left: 2rem;
+  }
+  img{
+    height:20%;
+    width: 20%;
+  }

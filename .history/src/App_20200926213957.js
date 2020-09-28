@@ -1,0 +1,39 @@
+import React from 'react';
+import {
+  BrowserRouter as Router,
+  Route,
+  Redirect,
+  Switch
+} from 'react-router-dom';
+import MainNavigation from '../src/shared/components/navigation/MainNavigation';
+
+
+const App = () => {
+
+  // <Switch>
+  //   <Route path="/" exact>
+  //     {/* <Users /> */}
+  //   </Route>
+  //   <Route path="/:userId/places" exact>
+  //     {/* <UserPlaces /> */}
+  //   </Route>
+  //   <Route path="/places/new" exact>
+  //     {/* <NewPlace /> */}
+  //   </Route>
+  //   <Route path='/places/:placeId'>
+  //     {/* <UpdatePlace /> */}
+  //   </Route>
+  //   <Redirect to="/" />
+  // </Switch>
+
+  return (
+    <Router>
+      <MainNavigation />
+      <main className="main-body">
+        <h1 className="welcome-text">welcome</h1>
+      </main>
+    </Router>
+  );
+};
+
+export default App;

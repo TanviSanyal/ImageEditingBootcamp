@@ -1,0 +1,10 @@
+.main-body span{
+  color: white;
+  text-transform: uppercase;
+  display: block;
+}
+.main-body{
+  text-align: center;
+  position: absolute;
+}
+
